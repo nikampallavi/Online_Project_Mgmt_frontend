@@ -1,0 +1,50 @@
+.authentication{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  .authentication-form{
+    width: 400px;
+    padding-top: 30px;
+    margin-top: -125px;
+  }
+  .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+     max-width: max-content;
+    padding:  10px 15px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .primary-button {
+    background-color: #007bff;
+    color: white; 
+    border: none; 
+    width:60%;
+    padding-right: 20px; 
+    border-radius: 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    display: block;
+    margin-left: 20%;
+  }
+  
+  .logo{
+    width:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+  }
+
+  .name{
+    font-size: small;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+  }

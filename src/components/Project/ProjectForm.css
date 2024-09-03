@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width:50px;
+    display: block;
+    margin-left: 400px;
+    /* margin-right: auto; */
+    
+    padding-top: 30px;
+  }
+
+
+.project-form {
+    position: relative;
+    width: 56rem;
+    height: 430px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+.header{
+    color: white;
+    font-size: medium;
+    margin-left: 30px;
+    
+}
+
+.project-theme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 15px;
+    
+    justify-content: space-between;
+}
+
+.project-theme .form-group textarea {
+    width: 30rem;
+    height: 80px;
+    resize: none;
+    margin-left: -5px;
+    border: 1px solid gray;
+}
+
+.project-theme .form-group textarea::placeholder {
+    color: gray;
+}
+
+.project-submit button {
+    width: 150px;
+    padding: 7px;
+    margin-top: 20px;
+    border-top: 20px;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #0c4d97;
+    cursor: pointer;
+}
+
+.project-selection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 70rem;
+    margin-left: -5px;
+}
+
+.project-selection .form-group label {
+    padding-left: -20px;
+    color: gray;
+}
+
+.project-selection .form-group select,
+.project-selection .form-group input {
+    border: 1px solid gray;
+    padding-left: -10px;
+    width: 220px;
+    
+}
+
+.project-selection .form-group input,
+.project-selection .form-group select {
+    padding-left: -10px;
+    width: 280px;
+}
